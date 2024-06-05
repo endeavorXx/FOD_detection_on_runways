@@ -1,0 +1,44 @@
+99.1 % Non-FOD | 0.9% FOD
+Train set - 
+class0 - 24141
+class1 - 230
+Val set -
+class0 - 3449
+class1 - 33
+Test set -
+class 0 - 6898
+class 1 - 66
+
+>> Look into different metrics - 
+1. mAP score
+2. precision
+3. F1 score
+
+
+Training Resnet - 
+>> Try changing shuffling parameter. ('shuffle' = True) - done
+>> Try adding schedduler - done
+>> Results dramatically changed after normalization
+
+Results for Different Models - https://paperswithcode.com/sota/image-classification-on-cifar-10
+Results for Different Optimizers - https://paperswithcode.com/sota/
+
+Possible Next Steps - 
+
+1. we have not tried Data Augmentation yet.
+2. we can also look into different optimizers.
+3. WE CAN ALSO LOOK INTO HYPER-PARAMETER TUNING.
+4. there can be a test on different optimizer, we are currently using SGD. Authors have used Adam.
+5. Make more annotations
+6. In initial epochs, ASL shows state-of-the art results when compared to cross-entropy loss.
+
+
+Resources - 
+1. https://towardsdatascience.com/resnets-for-cifar-10-e63e900524e0
+2. https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8
+
+
+We have extracted 32x32 images from the annotations. The data has been split into train,val, and test sets with 70%,10%, and 20% ratios. Each train,val and test folder contains class_0 and class_1 folder. Class_0 for "NON-FOD" and class_1 for "FOD".
+Kindly, follow the same link to find the extracted images.
+File Name - "Data.zip"
+Thanks & regards
