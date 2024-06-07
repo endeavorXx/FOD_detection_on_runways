@@ -36,7 +36,7 @@ Possible Next Steps -
 Resources - 
 1. https://towardsdatascience.com/resnets-for-cifar-10-e63e900524e0
 2. https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8
-
+3. https://www.learnpytorch.io/04_pytorch_custom_datasets/#7-model-0-tinyvgg-without-data-augmentation
 
 We have extracted 32x32 images from the annotations. The data has been split into train,val, and test sets with 70%,10%, and 20% ratios. Each train,val and test folder contains class_0 and class_1 folder. Class_0 for "NON-FOD" and class_1 for "FOD".
 Kindly, follow the same link to find the extracted images.
